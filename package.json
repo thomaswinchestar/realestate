@@ -1,0 +1,29 @@
+{
+  "name": "real-estate-search",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@faker-js/faker": "^7.0.0",
+    "@graphql-tools/schema": "^8.3.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "apollo-server-micro": "^3.6.3",
+    "graphql": "^15.5.0",
+    "mysql2": "^2.3.3",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "resolutions": {
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.19",
+    "postcss": "^8.4.5",
+    "autoprefixer": "^10.4.0"
+  }
+}
